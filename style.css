@@ -1,0 +1,131 @@
+/* === General === */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #d57dc4;
+    color: rgb(51, 51, 51);
+  }
+  
+  nav {
+    background-color: rgb(243, 173, 239);
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #d480db;
+  }
+  
+  /* === Hero Section === */
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(to right, rgb(229, 198, 226), rgb(236, 157, 208));
+  }
+  
+  
+  
+  .bio {
+    max-width: 600px;
+    margin: 1rem auto;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #d480db;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* === Timeline === */
+  .timeline {
+    background: #fff;
+    padding: 3rem 2rem;
+  }
+  
+  .timeline h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .event {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-left: 5px solid #ff9800;
+    background: #fdfdfd;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* === Hobbies === */
+  .hobbies {
+    background-color: #eee;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .hobbies h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hobby-box {
+    display: inline-block;
+    width: 280px;
+    margin: 1rem;
+    background: rgb(236, 157, 208);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgb(236, 157, 208);
+  }
+  
+  .hobby-box img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* === Footer === */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: white;
+    font-size: 14px;
+  }
+  
